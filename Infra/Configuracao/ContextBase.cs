@@ -34,7 +34,8 @@ namespace Infra.Configuracao
 
         public string ObterStringConexao()
         {
-            return "Data Source=localhost;Initial Catalog=App_Api_Financeiro;Integrated Security=True";
+            //return "Data Source=localhost;Initial Catalog=FINANCEIRO_2024;Integrated Security=True";
+            return "Data source=localhost;database=FINANCEIRO_2024;Trusted_connection=true; Encrypt=false; TrustServerCertificate=true";
         }
     
 
