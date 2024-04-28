@@ -11,7 +11,7 @@ namespace WebApi.Token
         private string issuer = "";
         private string audience = "";
         private Dictionary<string, string> claims = new Dictionary<string, string>();
-        private int expiryInMinutes = 5;
+        private int expiryInMinutes = 180;
 
         public TokenJWTBuilder AddSecurityKey(SecurityKey securityKey) 
         {
